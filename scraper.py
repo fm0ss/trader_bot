@@ -18,10 +18,9 @@ tool = Tool(
 )
 
 # Finding financial news
-# Open AI key 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
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPAPI_API_KEY"] = "8b73de58ac065512d4eb5383d88e1113cd4e9c46b669839ae60d2a639a32a3fe"
+os.environ["OPENAI_API_KEY"] = "{OpenAPI KEY Here}"
+os.environ["SERPAPI_API_KEY"] = "{SERPAPI KEY Here}"
 
 llm = OpenAI(temperature=0)
 
